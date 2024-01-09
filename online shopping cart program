@@ -1,0 +1,17 @@
+#program for an online shopping cart.
+for i in range(3):
+    quantity=int(input("enter the quantity"))
+    price=int(input("enter the price"))
+    total=quantity*price
+    cost=total
+print("total cost is",total)
+if cost>100 and cost<200:
+    discount =cost * 0.05
+    total = cost-discount
+    print("total amount is",total)
+elif cost> 200:
+    discount =cost*0.1
+    total=cost-discount
+print("total amount is",total)  
+
+    
